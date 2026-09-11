@@ -8,7 +8,7 @@ def extraer_multiples_goleadores():
     headers = {
         # En la documentacion solo permite el token de la siguiente manera y a continuacion la clave API
         # de mi cuenta creada
-        'x-apisports-key': 'b1b6925605afeeb49b3b6c4124b4d098'
+        'x-apisports-key': '*'
     }
 
     # diccionario de ligas a consultar
