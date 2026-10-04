@@ -2,3 +2,10 @@
 __pycache__/
 stage_data/
 *.pyc
+# Archivos de usuario y configuración local de SSIS
+*.dtproj.user
+*.suo
+
+# Carpetas de compilación
+bin/
+obj/
