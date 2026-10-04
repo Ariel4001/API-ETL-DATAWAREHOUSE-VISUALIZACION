@@ -18,8 +18,8 @@ def cargar_stage_a_sql():
     #Configuración de la conexión a SQL Server
     servidor = r"LAPTOP-6K5K4L9B\CASTROARISQL"
     base_datos = "Stage_Jugadores"
-    usuario = "sa"
-    contraseña = "sa"
+    usuario = "*"
+    contraseña = "*"
 
     # Cadena de conexión con credenciales
     conexion_str = f"mssql+pyodbc://{usuario}:{contraseña}@{servidor}/{base_datos}?driver=ODBC+Driver+17+for+SQL+Server"
